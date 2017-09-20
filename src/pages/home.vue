@@ -38,6 +38,14 @@
         </div>
       </router-link>
     </div>
+    <div class="preview">
+      <router-link v-bind:to="'/resume/yuhui'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/resume-side-bar.png" />
+          <span>yuhui</span>
+        </div>
+      </router-link>
+    </div>
   </div>
 </div>
 </template>
